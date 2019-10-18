@@ -1,0 +1,17 @@
+.a{
+    display: flex;
+}
+.profile{
+    width: 50%;
+    background-image: url('./profile.img');
+}
+
+.info{
+    float: left;
+    width: 50%;
+}
+
+img{
+    /* width: 95%;
+    height: 100%; */
+}
