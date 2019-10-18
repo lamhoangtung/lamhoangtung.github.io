@@ -1,6 +1,11 @@
-#container{
+#id_container{
     /* border: 1px solid green; */
     overflow: hidden;
+}
+
+img{
+    width: 100%;
+    height: auto;
 }
 
 #img{
@@ -9,15 +14,22 @@
     background-image: url('profile.jpg');
     background-size: cover;
     background-position: center;
-    background-position: center;
     /* border: 1px solid blue; */
     width: 50%;
-    height: 1000px;
+    /* height: auto; */
+    min-height: 1000px;
 }
 
 #content{
     float: left;
     /* border: 1px solid red; */
     width: 49%;
-    height: 500px;
+    height: auto;
+    padding: 100px;
+    align-content: center;
+}
+
+#name{
+    font-family: futura-pt;
+    font-weight: 700;
 }
