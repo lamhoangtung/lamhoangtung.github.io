@@ -1,3 +1,8 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 #id_container{
     /* border: 1px solid green; */
     overflow: hidden;
@@ -17,11 +22,11 @@ img{
     /* border: 1px solid blue; */
     width: 50%;
     /* height: auto; */
-    min-height: 1000px;
+    min-height: 1080px;
 }
 
 #content{
-    float: left;
+    float: right;
     /* border: 1px solid red; */
     width: 49%;
     height: auto;
@@ -33,3 +38,27 @@ img{
     font-family: futura-pt;
     font-weight: 700;
 }
+
+/* 
+@media only screen and (min-width: 400px){
+    #img{
+        float: none;
+        width: 100%;
+    }
+    #content{
+        float: none;
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 800px){
+    #img{
+        float: left;
+        width: 50%;
+    }
+    #content{
+        float: right;
+        width: 49%;
+    }
+} */
