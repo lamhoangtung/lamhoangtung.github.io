@@ -21,17 +21,19 @@ img{
     background-position: center;
     /* border: 1px solid blue; */
     width: 50%;
-    /* height: auto; */
-    min-height: 1080px;
+    height: 1080px;
+    /* min-height: 1080px; */
 }
 
 #content{
     float: right;
     /* border: 1px solid red; */
     width: 49%;
-    height: auto;
-    padding: 100px;
+    height: 1080px;
+    padding: 30px;
+    /* padding-top: 25%; */
     align-content: center;
+    vertical-align: middle;
 }
 
 #name{
