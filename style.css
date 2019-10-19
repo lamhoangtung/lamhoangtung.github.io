@@ -4,7 +4,6 @@ body{
 }
 
 #id_container{
-    /* border: 1px solid green; */
     overflow: hidden;
 }
 
@@ -19,7 +18,6 @@ img{
     background-image: url('profile.jpg');
     background-size: cover;
     background-position: center;
-    /* border: 1px solid blue; */
     width: 50%;
     height: 1080px;
     /* min-height: 1080px; */
@@ -27,11 +25,10 @@ img{
 
 #content{
     float: right;
-    /* border: 1px solid red; */
     width: 49%;
     height: 1080px;
-    padding: 30px;
-    /* padding-top: 25%; */
+    padding: 40px;
+    padding-top: 10%;
     align-content: center;
     vertical-align: middle;
 }
@@ -41,26 +38,35 @@ img{
     font-weight: 700;
 }
 
-/* 
-@media only screen and (min-width: 400px){
-    #img{
-        float: none;
-        width: 100%;
-    }
-    #content{
-        float: none;
-        width: 100%;
-    }
+/* Style all font awesome icons */
+.fa {
+  /* padding: 20px; */
+  font-size: 30px;
+  width: 50px;
+  text-align: left;
+  align-content: left;
+  text-decoration: none;
+  vertical-align: middle;
+  /* border-radius: 50%; */
 }
 
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
 
-@media only screen and (min-width: 800px){
-    #img{
-        float: left;
-        width: 50%;
-    }
-    #content{
-        float: right;
-        width: 49%;
-    }
-} */
+#btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: #e7e7e7;
+    margin-right: 30px;
+    /* font-weight: bolder; */
+}
+
+#btn:hover {
+    background: #e7e7e7;
+}
