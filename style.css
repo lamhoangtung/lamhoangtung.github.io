@@ -13,7 +13,7 @@
 #content{
     width: 100%;
     height: 100%;
-    padding: 40px;
+    padding: 7%;
     padding-top: 10%;
     align-content: center;
     vertical-align: middle;
@@ -40,7 +40,7 @@
     border: 2px solid black;
     background-color: white;
     color: black;
-    padding: 14px 28px;
+    padding: 18px 28px;
     font-size: 16px;
     cursor: pointer;
     border-color: #e7e7e7;
@@ -50,6 +50,13 @@
     background: #e7e7e7;
 }
 
-.icon a{
-    margin-right: 20px;
+#icon {
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#icon a{
+    margin-right: 18px;
+    border-bottom: 10px solid transparent;
 }
