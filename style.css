@@ -1,11 +1,7 @@
-.navbar {
-    margin-bottom: 0px;
-}
-
 .jumbotron {
     width: 100%;
     height: 100vh;
-    background-image: url('profile.jpg');
+    background-image: url('profile.webp');
     background-size: cover;
     border-radius: 0;
 }
